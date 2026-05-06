@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${title} ?: 'LexAgent'">LexAgent</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<header class="topbar">
+    <a class="brand" th:href="@{/}">⚖️ LexAgent</a>
+    <nav>
+        <a th:href="@{/}">Mis agentes</a>
+        <a th:href="@{/agents/new}" class="btn btn-primary">+ Nuevo agente</a>
+        <span th:if="${session.email}" class="userbadge" th:text="${session.email}">user</span>
+        <form th:if="${session.token}" th:action="@{/logout}" method="post" style="display:inline">
+            <button class="btn btn-ghost" type="submit">Salir</button>
+        </form>
+    </nav>
+</header>
+<main class="container">
+    <div th:if="${flash}" class="flash" th:text="${flash}"></div>
+    <div th:replace="${content}">contenido</div>
+</main>
+<footer class="footer">LexAgent · Frontend Java (Spring Boot) + Backend Python (FastAPI)</footer>
+</body>
+</html>

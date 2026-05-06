@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>LexAgent · Mis agentes</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<header class="topbar">
+    <a class="brand" th:href="@{/}">⚖️ LexAgent</a>
+    <nav>
+        <a th:href="@{/}">Mis agentes</a>
+        <a th:href="@{/agents/new}" class="btn btn-primary">+ Nuevo agente</a>
+        <span th:if="${session.email}" class="userbadge" th:text="${session.email}">user</span>
+        <form th:action="@{/logout}" method="post" style="display:inline">
+            <button class="btn btn-ghost" type="submit">Salir</button>
+        </form>
+    </nav>
+</header>
+<main class="container">
+    <div th:if="${flash}" class="flash" th:text="${flash}"></div>
+    <h1>Mis agentes IA jurídicos</h1>
+    <p class="muted">Gestiona agentes especializados en distintos tipos de documentos jurídicos.</p>
+
+    <form method="get" th:action="@{/}" class="searchbar">
+        <input type="text" name="q" th:value="${q}" placeholder="Buscar por nombre..."/>
+        <button class="btn" type="submit">Buscar</button>
+        <a th:if="${q != null and !q.isEmpty()}" class="btn btn-ghost" th:href="@{/}">Limpiar</a>
+        <span class="muted right" th:text="|${total} agentes|">0 agentes</span>
+    </form>
+
+    <div class="grid">
+        <div class="card" th:each="a : ${agents}">
+            <a th:href="@{'/agents/' + ${a.id}}">
+                <h3 th:text="${a.name}">Nombre</h3>
+                <p class="muted" th:text="${a.doc_type}">tipo</p>
+                <p th:text="${a.description}">desc</p>
+            </a>
+            <div class="card-actions">
+                <a class="btn btn-ghost" th:href="@{'/agents/' + ${a.id} + '/edit'}">Editar</a>
+                <form th:action="@{'/agents/' + ${a.id} + '/delete'}" method="post"
+                      onsubmit="return confirm('¿Eliminar este agente y todo su historial?');"
+                      style="display:inline">
+                    <button class="btn btn-danger" type="submit">Eliminar</button>
+                </form>
+            </div>
+        </div>
+        <div th:if="${#lists.isEmpty(agents)}" class="card empty">
+            <span th:if="${q == null or q.isEmpty()}">Aún no tienes agentes. <a th:href="@{/agents/new}">Crea el primero</a>.</span>
+            <span th:if="${q != null and !q.isEmpty()}">Ningún agente coincide con "<b th:text="${q}"></b>".</span>
+        </div>
+    </div>
+
+    <nav class="pagination" th:if="${totalPages > 1}">
+        <a th:if="${page > 1}" th:href="@{/(q=${q},page=${page-1})}">← Anterior</a>
+        <span th:text="|Página ${page} de ${totalPages}|">Página 1</span>
+        <a th:if="${page < totalPages}" th:href="@{/(q=${q},page=${page+1})}">Siguiente →</a>
+    </nav>
+</main>
+</body>
+</html>

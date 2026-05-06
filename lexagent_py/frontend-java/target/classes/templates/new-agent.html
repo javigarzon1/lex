@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${mode == 'edit'} ? 'LexAgent · Editar agente' : 'LexAgent · Nuevo agente'">LexAgent</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<header class="topbar">
+    <a class="brand" th:href="@{/}">⚖️ LexAgent</a>
+    <nav><a th:href="@{/}">← Volver</a></nav>
+</header>
+<main class="container">
+    <h1 th:text="${mode == 'edit'} ? 'Editar agente' : 'Crear nuevo agente IA'">Agente</h1>
+    <form method="post"
+          th:action="${mode == 'edit'} ? @{'/agents/' + ${agent.id} + '/edit'} : @{/agents/new}"
+          enctype="multipart/form-data" class="form">
+        <label>Nombre
+            <input name="name" required placeholder="Ej. Avales Internacionales"
+                   th:value="${agent != null} ? ${agent.name} : ''"/>
+        </label>
+        <label>Descripción
+            <input name="description" placeholder="Breve descripción"
+                   th:value="${agent != null} ? ${agent.description} : ''"/>
+        </label>
+        <label>Tipo de documento
+            <select name="docType" required>
+                <option value="aval_internacional"
+                        th:selected="${agent != null and agent.doc_type == 'aval_internacional'}">Aval internacional</option>
+                <option value="contrato"
+                        th:selected="${agent != null and agent.doc_type == 'contrato'}">Contrato</option>
+                <option value="nda"
+                        th:selected="${agent != null and agent.doc_type == 'nda'}">NDA</option>
+                <option value="generico"
+                        th:selected="${agent != null and agent.doc_type == 'generico'}">Genérico</option>
+            </select>
+        </label>
+        <label>Prompt del sistema
+            <textarea name="systemPrompt" rows="6" required
+                      th:text="${agent != null} ? ${agent.system_prompt} : ''"
+                      placeholder="Eres un experto en..."></textarea>
+        </label>
+
+        <fieldset>
+            <legend>Base de conocimiento</legend>
+            <label>Texto
+                <textarea name="knowledgeBase" rows="4"
+                          th:text="${agent != null} ? ${agent.knowledge_base} : ''"
+                          placeholder="Pega aquí texto de referencia..."></textarea>
+            </label>
+            <label>Añadir desde fichero PDF/DOCX/TXT
+                <input type="file" name="knowledgeFile" accept=".pdf,.docx,.txt,.md"/>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Campos del formulario dinámico</legend>
+            <p class="muted">Define los campos que el usuario rellenará al usar el agente.</p>
+            <div id="fields"></div>
+            <button type="button" class="btn" onclick="addField()">+ Añadir campo</button>
+            <input type="hidden" name="fieldsJson" id="fieldsJson"/>
+        </fieldset>
+
+        <button type="submit" class="btn btn-primary" onclick="serializeFields()"
+                th:text="${mode == 'edit'} ? 'Guardar cambios' : 'Crear agente'">Guardar</button>
+    </form>
+</main>
+
+<script th:inline="javascript">
+const types = ["text", "textarea", "date", "number", "select"];
+const initial = /*[[${fieldsJson}]]*/ null;
+
+function addField(data) {
+    data = data || {name: "", label: "", type: "text", options: ""};
+    const opts = Array.isArray(data.options) ? data.options.join(",") : (data.options || "");
+    const wrap = document.createElement("div");
+    wrap.className = "field-row";
+    wrap.innerHTML = `
+        <input placeholder="name (id)" class="f-name" value="${data.name||''}"/>
+        <input placeholder="Etiqueta" class="f-label" value="${data.label||''}"/>
+        <select class="f-type">${types.map(t => `<option ${t===(data.type||'text')?'selected':''}>${t}</option>`).join("")}</select>
+        <input placeholder="opciones (coma)" class="f-opts" value="${opts}"/>
+        <label class="reqchk"><input type="checkbox" class="f-req" ${data.required?'checked':''}/> req</label>
+        <button type="button" onclick="this.parentElement.remove()">✕</button>`;
+    document.getElementById("fields").appendChild(wrap);
+}
+function serializeFields() {
+    const rows = document.querySelectorAll("#fields .field-row");
+    const arr = [];
+    rows.forEach(r => {
+        const name = r.querySelector(".f-name").value.trim();
+        if (!name) return;
+        const type = r.querySelector(".f-type").value;
+        const opts = r.querySelector(".f-opts").value.trim();
+        arr.push({
+            name,
+            label: r.querySelector(".f-label").value || name,
+            type,
+            options: type === "select" && opts ? opts.split(",").map(s=>s.trim()) : null,
+            required: r.querySelector(".f-req").checked
+        });
+    });
+    document.getElementById("fieldsJson").value = JSON.stringify(arr);
+}
+
+if (initial) {
+    try {
+        const arr = typeof initial === "string" ? JSON.parse(initial) : initial;
+        if (Array.isArray(arr) && arr.length) arr.forEach(addField);
+        else { addField(); }
+    } catch(e) { addField(); }
+} else {
+    addField({name:"importe", label:"Importe", type:"number"});
+    addField({name:"moneda", label:"Moneda", type:"text"});
+}
+</script>
+</body>
+</html>

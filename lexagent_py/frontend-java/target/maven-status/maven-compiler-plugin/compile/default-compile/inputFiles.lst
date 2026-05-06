@@ -1,0 +1,5 @@
+/workspaces/lex/lexagent_py/frontend-java/src/main/java/com/lexagent/web/LexAgentApplication.java
+/workspaces/lex/lexagent_py/frontend-java/src/main/java/com/lexagent/web/client/LexAgentApiClient.java
+/workspaces/lex/lexagent_py/frontend-java/src/main/java/com/lexagent/web/controllers/AgentsController.java
+/workspaces/lex/lexagent_py/frontend-java/src/main/java/com/lexagent/web/controllers/AuthController.java
+/workspaces/lex/lexagent_py/frontend-java/src/main/java/com/lexagent/web/security/AuthFilter.java

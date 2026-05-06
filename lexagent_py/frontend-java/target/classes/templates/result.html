@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Resultado · LexAgent</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<header class="topbar">
+    <a class="brand" th:href="@{/}">⚖️ LexAgent</a>
+    <nav><a th:href="@{'/agents/' + ${agent.id}}">← Volver al agente</a></nav>
+</header>
+<main class="container">
+    <h1>Resultado</h1>
+
+    <section class="result-block">
+        <div class="result-head">
+            <h2>📋 Informe de validación</h2>
+            <div>
+                <form method="post" th:action="@{/export}" style="display:inline">
+                    <input type="hidden" name="markdown" th:value="${reportMd}"/>
+                    <input type="hidden" name="filename" value="informe"/>
+                    <input type="hidden" name="format" value="pdf"/>
+                    <button class="btn">PDF</button>
+                </form>
+                <form method="post" th:action="@{/export}" style="display:inline">
+                    <input type="hidden" name="markdown" th:value="${reportMd}"/>
+                    <input type="hidden" name="filename" value="informe"/>
+                    <input type="hidden" name="format" value="docx"/>
+                    <button class="btn">DOCX</button>
+                </form>
+            </div>
+        </div>
+        <div class="markdown" th:utext="${reportHtml}">informe</div>
+    </section>
+
+    <section class="result-block">
+        <div class="result-head">
+            <h2>📄 Documento generado</h2>
+            <div>
+                <form method="post" th:action="@{/export}" style="display:inline">
+                    <input type="hidden" name="markdown" th:value="${documentMd}"/>
+                    <input type="hidden" name="filename" value="documento"/>
+                    <input type="hidden" name="format" value="pdf"/>
+                    <button class="btn">PDF</button>
+                </form>
+                <form method="post" th:action="@{/export}" style="display:inline">
+                    <input type="hidden" name="markdown" th:value="${documentMd}"/>
+                    <input type="hidden" name="filename" value="documento"/>
+                    <input type="hidden" name="format" value="docx"/>
+                    <button class="btn">DOCX</button>
+                </form>
+            </div>
+        </div>
+        <div class="markdown" th:utext="${documentHtml}">documento</div>
+    </section>
+</main>
+</body>
+</html>
