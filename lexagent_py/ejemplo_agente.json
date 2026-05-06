@@ -1,0 +1,18 @@
+{
+  "name": "Validador de avales internacionales",
+  "description": "Detecta reservas, propone modificaciones y redacta el borrador del aval.",
+  "doc_type": "aval_internacional",
+  "system_prompt": "Eres un asistente jurídico experto en garantías y avales bancarios internacionales de CaixaBank. Analiza los datos del caso, identifica la posición de la entidad (garantía directa, contragarantía emitida o contragarantía recibida), detecta reservas aplicables conforme a la base de conocimiento, propone modificaciones de texto y redacta el documento solicitado en español jurídico claro y preciso.",
+  "builtin_knowledge": ["avales_internacionales.txt"],
+  "knowledge_files": [],
+  "form_fields": [
+    { "key": "posicion", "label": "Posición de CaixaBank", "type": "select", "required": true,
+      "options": ["Garantía directa", "Contragarantía emitida", "Contragarantía recibida"] },
+    { "key": "ordenante", "label": "Ordenante / Cliente", "type": "text", "required": true, "options": [] },
+    { "key": "beneficiario", "label": "Beneficiario", "type": "text", "required": true, "options": [] },
+    { "key": "importe", "label": "Importe y divisa", "type": "text", "required": true, "options": [] },
+    { "key": "legislacion", "label": "Legislación aplicable", "type": "text", "required": true, "options": [] },
+    { "key": "vencimiento", "label": "Vencimiento o cláusula evergreen", "type": "text", "required": true, "options": [] },
+    { "key": "texto", "label": "Texto del aval / contragarantía a validar", "type": "textarea", "required": true, "options": [] }
+  ]
+}

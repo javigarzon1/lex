@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Crear cuenta · LexAgent</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<main class="auth-wrap">
+    <div class="auth-card">
+        <h1>Crear cuenta</h1>
+        <div th:if="${error}" class="flash flash-error" th:text="${error}"></div>
+        <form method="post" th:action="@{/signup}" class="form">
+            <label>Email <input type="email" name="email" required th:value="${email}"/></label>
+            <label>Contraseña <input type="password" name="password" required minlength="6"/></label>
+            <button type="submit" class="btn btn-primary">Crear cuenta</button>
+        </form>
+        <p class="muted">¿Ya tienes cuenta? <a th:href="@{/login}">Acceder</a></p>
+    </div>
+</main>
+</body>
+</html>

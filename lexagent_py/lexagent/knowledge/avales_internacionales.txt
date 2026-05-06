@@ -1,0 +1,568 @@
+# AVALES INTERNACIONALES
+
+## CUESTIONES PREVIAS:
+
+**1.- Avales internacionales**, son avales en los que al menos una de las partes no es residente español, se emite en moneda extranjera, se somete a legislación extranjera (distinta a la CCI) o se emite vía Swift.
+
+NB: sí se permite si el aval se somete a las URDG y se indica que la ejecución (no la emisión) será vía Swift.
+
+Para remitir a COMEX:
+
+"Buenos días,
+
+A la vista de la consulta planteada en vuestro correo, mediante el cual solicitáis la validación de un aval internacional, y dado que el mismo se emite vía swift <mark>(o la causa que sea)</mark>, os recordamos que en la **Norma 74**: Avales nacionales e internacionales se indica que para la formalización de este tipo de avales, lo primero que deberéis hacer es solicitarlo a través de la aplicación “Solicitud de aval extranjero”, donde podréis adjuntar documentos anexos.
+
+Una vez confirmado el texto y aceptado por el cliente, deberéis tramitar la operación a través de la aplicación de avales (AVM).
+
+Un cordial saludo,”
+
+**2.- Lo primero que hay que hacer es asegurarse de tener clara la posición de CaixaBank:** garantía directa, contragarantía emitida o contragarantía recibida.
+
+Hay otras figuras a tener en cuenta, y que al final se explican:
+
+- Double fronting
+- CaixaBank actúa como banco confirmador
+- Créditos documentarios
+- Letter of indemnity, sólo las letter of indemnity por pérdida de documentación. Las letter of indemnity por transferencia fraudulenta no nos corresponde, las valida AJ/Cops.
+
+**3.- Textos que vienen sin cumplimentar:** los textos tienen que venir lo más cumplimentado posible, o al menos, con los aspectos más importantes incorporados; no puede sobreentenderse ni dar por supuesto nada.
+
+Si faltan elementos esenciales, debe solicitarse el texto cumplimentado. El texto sería:
+
+“Buenos días:
+
+A fin de poder validar el ID adjunto, os indicamos que es necesario que nos facilitéis la garantía cumplimentada, dado que nos habéis pasado un borrador y los datos no cumplimentados se
+
+1
+
+*refieren a datos relevantes para la correcta emisión de la garantía, como la legislación aplicable, la duración del aval, o idioma entre otros.*
+
+Quedamos a la espera de recibirlo cumplimentado.
+
+Saludos.”
+
+Si se trata de contragarantías, también se pide cuando el texto de la garantía local viene sin cumplimentar (criterio confirmado en auditoría de septiembre). Suele ser en contragarantía a favor de banco árabes, porque hay un apartado dedicado al idioma y este aspecto puede repercutir en la contra.
+
+**4.- Las peticiones que se solicitan en inglés** deben hacerse en inglés en su totalidad: modificaciones en el texto, informe y carta de exoneración.
+
+**5.- Solicitud de traducción de los textos**: cuando los textos vienes en un idioma distinto al castellano, catalán, inglés o francés, debe solicitarse traducción; lo jurídicamente recomendable es que sea traducción jurada, pero si el backoffice pone problemas, se le indica que sea fiable y que ellos confirmen que coincida con lo que se emita.
+
+Caso especial el de garantías que se reciben en portugués. En vez de pedirse traducción, se introducen las modificaciones en castellano.
+
+**6.- Ajustar los textos**: es necesario ajustar los textos, tanto de las reservas como de las cláusulas de la carta de exoneración para que guarden coherencia con el texto revisado y las modficaicones que se realizan.
+
+Por ejemplo:
+
+- Reserva de valoración/documentación subjetiva: dejar bien claro el hito, condición o documentación que requiere o condiciona el texto, añadir la correspondiente coletilla si eso le convierte además en indefinido.
+- Clausula evergreen. Adaptar al supuesto concreto, ya que a veces no es evergreen pura, no hay prórrogas tácitas, la extensión yo ejecución la solicita el beneficiario.
+- En las contragarantías recibidas, una reserva de documentación subjetiva puede implicar que la garantía local sea indefinida, por lo que habría que incluir una reserva de duración de la CG inferior a la garantía local (que no es salvable)
+
+**7.- Modificaciones posteriores**: una vez que se valida un texto con un determinado ID y luego vuelve con ese mismo ID, se trata como aclaración, por lo que se adjudica al mismo letrado que lo ha validado primero.
+
+- Si al validar esa supuesta aclaración se confirma que se trata de un texto totalmente distinto, se envía un informe nuevo.
+
+- Si se trata de introducir o eliminar una cláusula del texto ya validado: se envía documento Word con la oportuna aclaración y se adjunta nuevo informe; o bien para incluir la reserva/recomendación que pretenden añadir, o bien, para enviar de nuevo el mismo informe porque lo que pretenden añadir es aceptable (el fin es porque estos casos son facturables, y con el envío del informe/plantilla se justifica nuestra actuación).
+
+- Si solicitan que revisemos las modificaciones que han hecho de acuerdo a nuestro informe, no se emite informe nuevo con plantilla, sino que se redacta un documento Word con un encabezamiento en el que conste el ID, el ordenante y la fecha. Será una aclaración , en el que se informa y aclara.
+
+2
+
+**OJO!** A veces viene diciendo que es confirmar si han incorporado bien nuestras modificaciones y realmente han “colado” una cláusula nueva que merece un informe nuevo.
+
+- Si hay que modificar algo porque nos lo devuelven por olvidar alguna reserva/recomendación, se modifica la validación, pero no es facturable, en el excell, en vez de fecha de salida se pone “corrección” o “aclaración”.
+
+**8.- Preguntas sobre el nivel de riesgo:** igual que en avales nacionales, si preguntan que especifiquemos si una reserva va a Riesgos o a quién le corresponde su valoración, debemos remitir a la norma 74 o a la 204, ya que por nuestra parte no es posible determinarlo porque existen diferentes niveles y delegaciones en función del segmento y las reservas.
+
+**9.- Las garantías directas y las contragarantías emitidas, están cubierta por pólizas de contragarantía** que pueden ser estándar, y por tanto no es negociada, o bien, no estándar, y por tanto una póliza de contragarantía negociada (la diferencia suele ser la fecha de firma: estándar es posterior a enero de 2012, y las negociadas, anteriores, por lo que en la actualidad, en su mayoría son estándar, no negociadas).
+
+En las pólizas estándar, están cubiertas las siguientes reservas (cubierta porque se incluye una cláusula de indemnidad para la entidad):
+
+- Legislación extranjera.
+- Nulidad de la obligación garantizada.
+- Cesión libre de la garantía/contragarantía.
+- Valoración/documentación subjetiva.
+
+Como los proveedores no tenemos acceso a las pólizas, no podemos confirmar si son negociadas o estándar, por lo que en estas reservas se indica “(…) salvo que el cliente tenga la cobertura necesaria en póliza.”, tal y como se incluyen en los textos de reservas.
+
+El grupo de backoffice es el que revisa si tiene esa cobertura en póliza o no. Si aun así tienen dudas y nos preguntan, se les remite a la segunda instancia, AJ (COPS).
+
+3
+
+## GARANTÍAS DIRECTAS
+
+Avalado/cliente <--> Beneficiario
+      |
+      v
+Garante: CaixaBank <--> Póliza de contragarantía
+
+### 1.- Reservas:
+
+Cuando se aprecien, debe proponerse un texto alternativo modificando el texto a validar, e indicar cómo actuar en caso de no aceptarse la modificación: si no es salvable, o si se debe firmar carta de exoneración, o dirigirse al segundo nivel (AJ COPS).
+
+**Cesión:** sólo se señala para el caso de cederse la garantía/contragarantía al margen de la obligación garantizada; si la cesión es por cesión de la obligación garantizada se admite.
+
+En caso de garantía emitida por CaixaBank con contragarantía recibida de un banco extranjero, el riesgo deberá trasladarse a la contragarantía recibida.
+
+Salvable con carta de exoneración.
+
+Mención especial para los supuestos en los que se cede a una persona determinada mencionada en el texto. En este caso no es necesaria carta de exoneración, pero se marca reserva para señalar que debe verificarse la normativa de cumplimiento normativo.
+
+**Primera demanda:** se marca cuando no queda claro que se trata de una garantía autónoma e independiente de la obligación garantizada. No obstante, no toda referencia al contrato es contraria a la naturaleza de aval a primer requerimiento. Además, si en el texto no se contiene de forma expresa la expresión “primera demanda” pero sí se indica que es una garantía solidaria o que se renuncia a los beneficios de división, excusión y orden, se admite, y se considera que se emite a primera demanda.
+
+Si se aprecia la reserva, no cabe carta de exoneración, debe valorarlo AJ (Cops)
+
+Correo de José María de 22/10/2024 delimita supuestos para apreciar la reserva:
+
+4
+
+“Por otra parte, respecto a la reserva *Primera Demanda*, decir que no toda incorporación de la palabra “acreditar” tiene que suponer la aplicación de la reserva; pero sí muy frecuentemente en aquellos casos en las que esta acreditación se refiera directamente sobre el incumplimiento de la obligación garantizada (“el beneficiario deberá acreditar el incumplimiento de la obligación garantizada…”) o sobre circunstancias que, bien entendidas, se refieren de facto al cumplimiento o incumplimiento de la obligación garantizada (“el beneficiario deberá acreditar el no pago de las mensualidades del arrendamiento”, “el beneficiario deberá acreditar el no cumplimiento de la fabricación y puesta a disposición de los bienes objeto del contrato garantizado”…), y que el beneficiario deba efectuar en la fase de ejecución. En principio, este criterio no se flexibilizará atendiendo el contexto y la redacción del resto del aval, pues es la simple referencia a que el beneficiario deba acreditar el incumplimiento ya es una previsión que es contraria a la naturaleza propia de una garantía a primer requerimiento. Por el contrario, la referencia a una posible acreditación no tiene porqué suponer la reserva de Primera Demanda si dicha acreditación se refiere a la realidad de un documento en concreto que se deba acompañar al requerimiento (“el beneficiario deberá acreditar en su solicitud de ejecución el requerimiento previo al avalado” en este caso no se observa nada; “el beneficiario deberá acreditar en su solicitud la obtención de un dictamen emitido por un técnico facultativo en donde se manifieste el incumplimiento” en este caso, Valoración Subjetiva) o cuando la acreditación se refiera a otras fases de la Garantía distintas a la ejecución (por ejemplo, cancelación o inicio de vigencia del aval).”
+
+**Orden judicial**: se aprecia cuando el texto indique que el banco tiene obligación de pagar, incluso si hay una orden judicial, o medida cautelar.
+
+*“our obligations and liabilities will not be discharged, impaired or otherwise affected by any act, judgment, order”*.
+
+Si se aprecia, no es salvable, por lo que no podrá emitirse la garantía/contragarantía.
+
+**Indeterminación de la obligación garantizada**: se aprecia en los casos en los que la obligación es excesivamente amplia o no está delimitada. Expresiones como “relaciones comerciales existentes entre las partes”, “contrato de *** y demás contratos existentes entre las partes”. Si no es posible indicar la fecha de suscripción del contrato, debe quedar bien identificado el tipo de contrato que se garantiza, o el número de orden/pedido.
+
+Salvable con carta de exoneración.
+
+**Nulidad de la obligación garantizada**: si se pacta que la garantía continúa en vigor aunque la obligación garantizada sea nula o anulable.
+
+Salvable con carta de exoneración.
+
+Si hay contra recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Idioma**: se aprecia si no es posible conocer el contenido por desconocimiento del idioma de la garantía que emite CaixaBank, o la garantía local cuando contragarantiza.
+
+Si se aporta traducción jurada no se marca reserva.
+
+Salvable con carta de exoneración.
+
+**Conversión de divisa**: se marca en caso de que el pago se realice en moneda distinta a la moneda de emisión, aplicando un tipo de interés distinto al del Banco central, o bien, cuando se asumen intereses por la diferencia en la conversión o por las fluctuaciones de moneda.
+
+Primero se dirige a SSBB, y si éstos lo solicitan expresamente, carta de exoneración.
+
+5
+
+**Plazo para el pago**: se marca cuando el plazo de pago es breve, atendiendo a la forma de emisión del aval: 3 días hábiles si se emite vía Swift o 5 hábiles si se emite en papel, aunque en el texto se especifique el modo de recepción, es decir:
+
+Si el aval se emite en papel, y en el texto se dice que el requerimiento se para a los 3 días hábiles tras recibir el requerimiento vía Swift, debe modificarse el texto y modificar reserva de plazo para el pago para que sea de 5 días hábiles.
+
+Salvable con carta de exoneración.
+
+Si se trata de garantía a emitir por CaixaBank, con contragarantía recibida, debe trasladarse el riesgo a la contra.
+
+**Cuantía indeterminada por intereses de demora**: cuando el plazo para el pago es breve y además se asume el pago de intereses, se marca, además de la reserva de plazo de pago, la presente reserva.
+
+También en caso de contragarantía emitida que cubre intereses de demora de la garantía local.
+
+Salvable con carta de exoneración.
+
+**Cuantía indeterminada por gastos legales**: se da en contragarantías emitidas, para cubrir gastos legales en los que pueda incurrir el banco local. No son gastos bancarios, es decir, gastos o comisiones por la emisión, ejecución o cancelación del aval, sino los gastos y costas procesales en los que puede incurrir el banco local con
+
+Salvable con carta de exoneración.
+
+**Cuantía indeterminada por indemnity**: cuando se cubren gastos de cualquier naturaleza y de cualquier tipo (distinto a los gastos bancarios, legales, y gross-up).
+
+También cuando se cubren conceptos o sumas adicionales no cuantificadas, por ejemplo: daños y perjuicios, o pérdidas de cualquier clase. Expresiones como : *"we indemnify you for any losses or damages "*
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local con contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Pago anticipado**: se marca cuando la entrada en vigor queda condicionada al cobro de un pago anticipado en una cuenta que no es de CaixaBank, o bien, que aun siendo de CaixaBank no se indica el concepto.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Valoración/documentación subjetiva**: se marca cuando la emisión, ejecución, cancelación, reducción del importe, se condiciona a un cumplimiento del contrato, o a un hito concreto, o a la recepción de una determinada documentación.
+
+Se incluye los casos de reducción del importe garantizado cuando se condiciona a recepción de determinada documentación, o cuando se cumpla alguna condición de la obligación garantizada.
+
+Cuando además no hay fecha de vencimiento, hay que añadir una coletilla, para darle tratamiento de garantía indefinida (en el texto de reservas se incluye la diferencia); es lo que anteriormente se señalaba como" cancelación subjetiva".
+
+Salvable con carta de exoneración.
+
+6
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Plazo de cobertura**: cuando se señala una fecha de vencimiento, pero no de caducidad (exigibilidad). Sólo aplicable a garantías sometidas al derecho español.
+
+Salvable con carta de exoneración.
+
+**Rehabilitación de la garantía**: se marca cuando se señala que una vez realizado el pago del aval, si el pago deviene nulo por cualquier causa (concurso o decisión judicial en otro tipo de procedimiento) se rehabilita la garantía. El riesgo está en que el pago se devuelve al avalado, por lo que finalmente el pago del aval se realizaría dos veces, o que se decida una vez caducado el aval y liberadas las garantías de la póliza de contragarantía.
+
+No se aplica si se recoge de forma expresa que la devolución del pago se realiza a CaixaBank, porque no hay riesgo de duplicar el pago.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Duración indefinida**: cuando no hay fecha de vencimiento o se prevén prórrogas sin límite temporal.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, la contra debe ser indefinida también, de lo contrario, la garantía no puede emitirse (por falta de cobertura).
+
+**Evergreen**: se marca cuando la garantía, pese a tener una fecha de vencimiento inicial prevé la posibilidad de prórrogas o de extensión a solicitud del beneficiario, y el banco decide extender o no la vigencia, y en caso de no extender puede solicitarse la ejecución.
+
+En los textos de reservas se distinguen los distintos supuestos y tratamiento, según se encuentre la cláusula en la garantía directa, la contragarantía emitida, o la recibida.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+Correo de José María de 22/10/2024 delimita supuestos para apreciar la reserva:
+
+*"En relación al tema de la Evergreen, creo que merece la pena hacer un ejercicio de sistematización y tratar de contemplar cuatro supuestos básicos de posible vigencia determinada y cláusula de posible prórroga:*
+
+*Cláusula en la que la posibilidad de **prórroga se contemple como TÁCITA** (el aval se prorroga sucesivamente de forma automática sin que sea necesario que nadie realice ninguna actuación, aún en los casos en los que CXB pueda desvincularse con preaviso): En estos supuestos, si la cláusula que consta en el aval **NO CONTEMPLA EXPRESAMENTE** que en caso de no renovación existirá obligación de pago por parte de CXB o que el beneficiario podrá ejecutar por la no prórroga, se observará como reserva por **Vigencia Indefinida**. Si por el contrario, la cláusula que consta en el aval **CONTEMPLA EXPRESAMENTE** que en caso de no renovación existirá la obligación de pago por parte de CXB o que el beneficiario podrá ejecutar por la no prórroga, se observará como reserva por **Evergreen**.*
+
+*Cláusula en la que la posibilidad de **prórroga se contemple a solicitud** (a petición expresa de alguna de las partes, indiferente que sea del Avalado o del Beneficiario, normalmente*
+
+7
+
+éste último): En estos supuestos, tanto si la cláusula CONTEMPLA EXPRESAMENTE la obligación de pago por parte de CXB o que el beneficiario podrá ejecutar por la no prorroga, como en los casos en los que, no constando dicha previsión expresa, se PUEDE ENTENDER COMO CONSECUENCIA LÓGICA, se observará como reserva Evergreen.
+
+Sobre este punto hay que diferenciar estos casos, de aquellos en los que la referencia a la posible prórroga/renovación de la Garantía sólo se contempla como manifestación a efectuar por el Beneficiario en el requerimiento de ejecución (sin cláusula adicional que dé a entender una obligación de prórroga/renovación para CXB), pues estos casos se tomarán como una causa más de posible ejecución y no se hará ninguna observación al respecto.
+
+Dependiendo del caso en el que nos encontremos, la redacción de la reserva que se haga constar en el Dictamen deberá ser la ajustada a cada caso, explicando correctamente la situación que se plantea en la Garantía. “
+
+Lo indicado por AJCops implica que hay que ir adaptando la redacción de la reserva evergreen para adaptarse a cada caso concreto, ya que puede darse una evergreen pura o cláusulas tipo evergreen: estas últimas están previstas para los supuestos de compromisos entre las partes que se incluyen en el aval, como renovación del aval, solicitudes “extend or pay” o cualquier obligación que implique que se va a ejecutar por causas distintas al incumplimiento.
+
+**Pay and walk**: a diferencia de la evergreen, en este caso, el banco emisor, en cualquier momento, decide desvincularse de la operación de forma unilateral pagando el importe garantizado.
+
+Es habitual en contragarantías que emite CaixaBank a favor de bancos australianos o neozelandeses.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Cláusula revolving**: se da en caso de pactar la restitución del importe garantizado al realizar pagos parciales: “YOU CAN DEMAND PARTIAL PAYMENT(S) OF THIS COUNTER GUARANTEE, WHEN THE BENEFICIARY OF THE PERFORMANCE BOND REQUEST PARTIAL PAYMENT(S) OF THE PERFORMANCE BOND. IN THIS CASE THIS COUNTER GUARANTEE WILL BE RESTORED TO ITS ORIGINAL AMOUNT WITHIN TEN BUSINESS DAYS, AFTER SUCH DATE OF EACH PARTIAL PAYMENT. OTHERWISE, BANCO INTERNACIONAL DE ECUADOR. MAY DEMAND PAYMENT OF THE BALANCE OF THIS COUNTER GUARANTEE IF BENEFICIARY MAKES A CORRESPONDING DEMAND ON THE PERFORMANCE BOND. THIS COUNTER GUARANTEE MAY BE RESTORED AT YOUR FIRST REQUEST BY AUTHENTICATED SWIFT MESSAGE BY BANCO INTERNACIONAL DE ECUADOR”.
+
+No salvable con carta de exoneración, debe valorarse por AJ (COPS)
+
+**Ausencia de legislación**: si el texto no contiene legislación aplicable ni menciona artículos del cuerpo legal aplicable.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+**Legislación extranjera**: cuando la garantía/contragarantía se somete a una legislación distinta de la española.
+
+También en caso de sumisión a dos normativas: una de la CCI y otra de otro estado.
+
+8
+
+En caso de discrepancia de legislación entre la garantía local y la contragarantía, siendo CaixaBank la contragarante, no se marca nada.
+
+Salvable con carta de exoneración.
+
+Si se encuentra en la garantía local que emite CaixaBank, cubierta por contragarantía recibida de otro banco, debe trasladarse el riesgo a la contragarantía.
+
+Si además se trata de legislación de un estado no miembro de la UE, y se trata de un texto que emite CaixaBank (sea garantía directa o contra emitida) debe marcarse la **reserva bail-in**.
+
+**Exclusión de artículos**: se marca cuando pese a someterse el texto que emite CaixaBank a la CCI, se excluyen artículos, y en el texto no se regula las condiciones aplicables en sustitución del artículo excluido. Sólo se admitirá en la exclusión del art. 15, si en el texto se incluye el contenido que debe tener una ejecución.
+
+No salvable por carta, debe ser autorizado por AJ (Cops).
+
+**Arbitraje**: se marca reserva si se recoge que las discrepancias que puedan surgir se resolverán recurriendo a arbitraje conforme a reglas distintas a las reglas de arbitraje de la CCI.
+
+No salvable por carta, debe ser autorizado por AJ (Cops).
+
+## 2.- Recomendaciones
+
+**Pluralidad de beneficiarios**: si no se pacta el régimen de actuación solidario de forma expresa, se entenderá que actúan mancomunadamente, siendo necesaria la firma de todos ellos en el requerimiento de ejecución y en cualquier comunicación.
+
+**Comunicaciones Swift**: recomendar que no sólo para la ejecución, sino para cualquier tipo decomunicación.
+
+**Stand by Letter of Credit**: sólo cuando CaixaBank actúa como Banco Confirmador (se trata en un punto posterior) debe indicarse como advertencia: “ *el texto revisado es una SBLC emitida por otro banco y CaixaBank actúa como banco confirmador. En este caso, la posición de la entidad no es equiparable a la de contragarantes, pues no se está asumiendo ningún riesgo adicional. En consecuencia, las Reservas que se indican en el presente informe deberán ser interpretadas teniendo en cuenta el marco de la operación y los riesgos que se adviertan no podrán mitigarse mediante carta de exoneración.* “
+
+## CONTRAGARANTÍAS EMITIDAS POR CAIXABANK:
+
+<table>
+    <tr>
+        <th>Avalado/Cliente</th>
+        <th>Beneficiario</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Banco local extranjero</td>
+    </tr>
+    <tr>
+        <td>Contragarante CaixaBank</td>
+        <td>Póliza de contragarantía</td>
+    </tr>
+</table>
+9
+
+Las reservas y recomendaciones de la contragarantía que emite CaixaBank se tratan igual que si se tratara de una garantía directa. El motivo es que igual que la garantía directa, la contra emitida está amparada en una póliza de contragarantía.
+
+**La garantía local** debe validarse teniendo en cuenta los aspectos que pueden implicar un riesgo en la contragarantía de caixabank. Serían las siguientes:
+
+- Primera demanda.
+- Orden judicial.
+- Nulidad de la obligación garantizada
+- Idioma
+- Rehabilitación de la garantía.
+- Evegreen.
+- Pay and walk.
+- Pago anticipado *
+- ~~Argelia~~: cuando se trata de una contragarantía de CaixaBank a un banco argelino, siempre debe marcarse esta reserva y siempre hay que enviar carta de exoneración (es una carta específica para este caso)
+
+Eliminado: <#>Reducciones intermedias del importe.¶
+
+* Correo de José María de 17/04/2025: tratamiento de la reserva de pago anticipado en la GL cuando CB contragarantiza:
+
+*"Si el pago anticipado que se prevé en la GL queda claro que es en una cuenta del Avalado abierta en CXB, con identificación de concepto, importe y número de cuenta, entendemos que a nuestros efectos de Banco Contragarante no hace falta marcar la reserva, pues tendremos conocimiento de cuando se produce la activación de las dos Garantías.*
+
+Si el pago anticipado que se prevé en la GL queda claro que es en una cuenta del Avalado abierta en CXB, pero no se identifica el concepto, el importe o el número de cuenta, asumiendo que el Banco Local no tendrá opción de conocer cuándo se produce la activación de su GL y que nosotros tampoco vamos a tener el control exacto del inicio de nuestra CG; en este caso sí entendemos conveniente **marcar la reserva** y tratar de incorporar todos los datos para identificar el pago en CXB o hacerle firmar carta de exoneración al cliente (aunque no conste en la Guía, pero por la repercusión que va a derivar respecto al inicio de vigencia de nuestra CG).
+
+Si el pago anticipado que se prevé en la GL queda claro que es en una cuenta del Avalado abierta en el Banco Local, con independencia de que se identifique o no, el concepto, el importe o el número de cuenta (estos ya serán aspectos a tener en cuenta por el Banco Local), entendemos igualmente que sí será conveniente **marcar la reserva** a efectos de CG
+
+10
+
+y GL tengan un inicio de vigencia equivalente y la inclusión de la previsión en la CG que emitimos de que el Banco Local nos informe del recibimiento del pago anticipado y, por lo tanto, de la activación de la CG.”
+
+## CONTRAGARANTÍA RECIBIDA
+
+<table>
+    <tr>
+        <th>Avalado</th>
+        <th>Beneficiario</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Garantía local solicitada a CaixaBank</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Contragarantía recibida de un banco extranjero</td>
+    </tr>
+</table>
+11
+
+En este caso, Caixabank emite una garantía, pero su operación está cubierta por una contragarantía facilitada por un banco extranjero. Por ello, la contragarantía que se recibe es la que debe cubrir todos los riesgos que se encuentren en la garantía que emite CaixaBank, lo que implica que las reservas no se salvan firmando una carta de exoneración, sino trasladando el riesgo directamente a la contragarantía que se recibe.
+
+Se trata de una garantía que se emite por instrucciones del banco contragarante.
+
+La garantía local que emite **CaixaBank** se revisa conforme a los criterios expuestos para la garantía directa, si bien, los riesgos salvables se trasladan a la contragarantía de acuerdo a las cláusulas de exoneración que se han facilitado.
+
+<mark>NB.-</mark> Cuando la garantía local es indefinida y la contra recibida tiene duración determinada, se ponen 2 reservas: en la contra recibida la reserva de “vencimiento de la contra inferior” y en la garantía local la reserva de “duración indefinida”.
+
+La contragarantía emitida sigue los siguientes criterios:
+
+## 1.- Reservas
+
+**Legislación aplicable:** sólo se marca como reserva si incluye sumisión a legislación extranjera sin referencia a la normativa de la CCI.
+
+**Exclusión de artículos:** si excluye artículos de la norma de la CCI, y no incluye alternativa a dicha exclusión.
+
+**Importe garantizado inferior:** importe inferior en la contra no sólo del importe garantizado, sino de aquellos conceptos que pueden suponer un incremento, por ejemplo una indemnity, gastos bancarios, intereses de demora.
+
+Se trata de una reserva no salvable
+
+**Vencimiento de la contragarantía inferior:** sería el caso en el que la garantía local sería indefinida y la contra recibida presenta un plazo de vencimiento determinado, o bien, la garantía local presenta un plazo inicial y sucesivas prórrogas, y la contra recibida sólo cubre el plazo inicial de la garantía local.
+
+Se trata de una reserva no salvable
+
+**Cesión:** si la contra recibida incluye la posibilidad de cesión, no se puede emitir la operación, es decir, es una reserva no salvable.
+
+**Gross-up:** la contragarantía recibida debe incluir la cláusula gross-up, y de no incluirse, debe valorarse por AJ (Cops).
+
+**Reducción de importes:** si hay reducción automática de importes y no es coherente con lo redactado en la garantía local, se eliminan las reducciones.
+
+Revisable por SSBB.
+
+**Importe indeterminado:** no se señala si la contragarantía es una indemnity.
+
+Revisable por Riesgos:
+
+**Plazo de cobertura:** se marca esta reserva en el caso de que la contra recibida tenga un plazo de vencimiento/exigibilidad inferior a 30 días. Por ejemplo 15 días.
+
+Debe revisarse por SBB.
+
+12
+
+**Plazo de pago**: siempre debe intentarse que el plazo de pago de la contragarantía recibida sea inferior que el de la garantía local. En caso de que el plazo de pago de la garantía local sea inferior, debe señalarse la reserva.
+
+Salvable trasladando el riesgo a la contra.
+
+**Evergreen**: si la cláusula evergreen se encuentra en la contra recibida, se corre el riesgo de perder la cobertura ya que el contragarante puede decidir no extender la vigencia. Debe pactarse una fecha de vencimiento cerrada (30 días tras la vigencia de la garantía directa) o bien dejar bien claro que en caso de no extender, CaixaBank pude solicitar la ejecución.
+
+Salvable trasladando el riesgo a la contra.
+
+**2.- Recomendaciones:**
+
+**Legislación aplicable**: recomendamos que se negocie el sometimiento a la legislación española (o un derecho neutral como el inglés) en lo no previsto a la URDG758
+
+## OTRAS OPERACIONES
+
+Hay otras operaciones, que, aunque menos habituales, suelen darse.
+
+Es importante saber identificarlas para adecuar la validación:
+
+**1.- Créditos documentarios:**
+
+En algunos casos, el texto o la consulta llega con el encabezamiento de STANDBY EMITIDA (ISSUE) o SBLC, pero al abrir el texto, NO contiene un aval o contragarantía a primera demanda,
+
+13
+
+sino los documentos que se han de presentar y condiciones adicionales de un crédito documentario. Se adjunta texto más abajo como ejemplo.
+
+Se trata de un crédito documentario que NO validamos nosotros: hay un grupo específico (ni JM Rojas ni Joan Font supieron decir quiénes).
+
+Se devuelve la consulta, es decir, se contesta como una validación normal pero con el siguiente texto:
+
+"Buenos días:
+
+A la vista del texto remitido, el mismo no es un texto de aval a primera demanda, sino una ABLC relativa a la documentación a presentar de un crédito documentario.
+
+Desde RyC no valoramos créditos documentarios, ni la confirmación de CaixaBank en los recibidos con el contenido que consta en el que adjuntas, ni tenemos instrucciones para ello.
+
+Si la intención es emitir un crédito documentario, debéis dar traslado al grupo dedicado a este tipo de productos.
+
+Quedamos a vuestra disposición para cualquier aclaración adicional.
+
+Saludos,
+
+------
+
+Letrado/a"
+
+TEXTO EJEMPLO
+
+ID 120652
+
+FOR STANDBY LETTER OF CREDIT DEPARMENT.
+
+OUR REFERENCE: E934003XXXXXXXXX
+
+PLEASE ADVISE THIS GUARANTEE TO KEMMLITZER KAOLINWERKE GMBH (ID DE811231474) ADDRESSED AT STRASSE DES FRIEDENS 6-8, D-04769 MUGELN OT KEMMLITZ (GERMANY), WITHOUT ANY RESPONSIBILITY FROM YOUR PART AND WITHOUT ANY CHARGES FOR US.
+
+Mensaje tipo fin.760
+Sender: CAIXESBB
+Receiver (Código Swift del banco receptor) HYVEDEMMXXX
+New Sequence15A
+Sequence of Total 27 1/1
+Type of Operation 22A ADVI
+Sender to Receiver Info 72Z PLEASE ADVISE TO BENEFICIARY, AND REVERT IN ACKNOWLEDGEMENT BY SWIFT.
+
+New Sequence15B
+Trans.Reference Number20 E934003XXXXXXXXX
+Date XX/XX/XXXX
+Compounding Type22D STBY
+Applicable Rules40C ISPR
+Bank Operation Code23B FIXD
+New Date of Expiry31E 10/04/2025
+Applicant50 RESACRIL, S.L. (NIF B96848098)
+
+14
+
+PTDA. BARRANCO, 12591 LA LLOSA, CASTELLON (SPAIN)
+Ordering Institution52A CAIXESBB
+Beneficiary Customer59 DE811231474)
+
+KEMMLITZER KAOLINWERKE GMBH (ID
+AT STRASSE DES FRIEDENS 6-8, D-04769 MUGELN OT KEMMLITZ (GERMANY)
+
+Currency/Transac. Amoun 32B EUR 200.000,00 (TWO HUNDRED THOUSAND EUROS)
+CAMPO 41F HYVEDEMMXXX
+
+Account(s) for Charges71D ALL CHARGES AND BANKING COMMISIONS OUTSIDE SPAIN ARE ON BENEFICIARY’S ACCOUNT
+
+Doc&Presentation Instr45C DOCUMENT REQUIRED:
+
++ COPY OF UNPAID INVOICE.
+
++ COPY OF DELIVERY NOTE
+
++ BENEFICIARY'S CERTIFICATE STATING THAT APPLICANT HAS NOT EFFECTED PAYMENT AT 83 DAYS AFTER DATE OF TRANSPORT DOCUMENTS.
+
+Undertaking Terms&Conds 77U
+
+TO STANDBY LETTER OF CREDIT DEPARMENT.
+
+OUR REFERENCE: E934003XXXXXXXXX
+
+PLEASE ADVISE THIS GUARANTEE TO KEMMLITZER KAOLINWERKE GMBH (ID DE811231474) ADDRESSED AT STRASSE DES FRIEDENS 6-8, D-04769 MUGELN OT KEMMLITZ (GERMANY), WITHOUT ANY RESPONSIBILITY FROM YOUR PART AND WITHOUT ANY CHARGES FOR US.
+
++IF DOCUMENTS ARE PRESENTED WITH DISCREPANCIES. WE WILL DEDUCT 90 EUR OR ITS EQUIVALENT IN THE L/C CURRENCY.
+
++DOCUMENTS MUST BE ISSUED IN SPANISH OR ENGLISH LANGUAGE. HOWEVER OTHER LANGUAGES IN ADDITION TO SPANISH OR ENGLISH ON THE PREPRINTED FORMS ARE ACCEPTABLE.
+
++IF DISCREPANT DOCUMENTS ARE PRESENTED TO US, WE WILL GIVE NOTICE OF REFUSAL AND HOLD DOCUMENTS AT PRESENTER'S DISPOSAL, HOWEVER, UNLESS ANY PRIOR INSTRUCTIONS TO THE CONTRARY ARE RECEIVED, IF WE OBTAIN A WAIVER OF DISCREPANCIES, DOCUMENTS MAY BE RELEASED TO THE APPLICANT. IN SUCH EVENT WE WILL HAVE NO LIABILITY TO THE PRESENTER IN RESPECT OF SUCH RELEASE.
+
++PLEASE DO NOT SEND ANY DRAFT. IF PRESENTED IT WILL BE RETURNED TO YOU WITH CHARGES AT YOUR EXPENSES. UNLESS CREDIT IS AVAILABLE BY NEGOTIATION OR ACCEPTANCE.
+
++DOCUMENTARY CREDIT SUBJECT TO ISBP 98
+
+INSTRUCTIONS TO PAYING/ACCEPTING:
+
++ ALL DOCUMENTS ARE TO BE SENT TO CAIXABANK S.A.
+
+AVDA MANOTERA 20, 2A PLANTA, EDIF. SYDNEY,
+
+28050 MADRID (SPAIN)
+
++ PLEASE AQCKNOWLEDGE RECEIPT OF THIS SBLC BY RETURN AUTHENTICATED SWIFT TO US. THANK YOU.
+
++ PLACE OF EXPIRY: SPAIN
+
+Confirmation Instruction 49 WITHOUT
+Beneficiary Institution 58A HYVEDEMMXXX
+Underlying Trans Detail 45L DESCRIPTION OF GOODS AND/OR SERVICES: KAOLIN GRANULATE
+
+THIS GUARANTEE HAS BEEN REGISTERED ON THIS DATE IN THE SPECIAL GUARANTEE REGISTER UNDER THE NUMBER E934003XXXXXXXXX.
+
+15
+
+CAIXABANK, S.A.
+.
+UNQUOTE.
++
+BEST REGARDS,
+CAIXABANK, S.A
+9589 LMF
+
+## 2.- Facilidades bancarias
+
+Se presentan como garantías recibidas en su mayoría, ya que se trata de una garantía recibida a favor de CaixaBank para otorgar facilidades crediticias: es el caso de financiación de las filiales de las empresas en el extranjero.
+
+Formalmente sólo viene el texto de la contragarantía recibida de un banco extranjero y en cuanto a CaixaBank sólo se identifica la obligación garantizada, que será una facilidad crediticia: préstamo, crédito, leasing … .
+
+Aspectos a tener en cuenta:
+
+- Formalmente será un texto de contragarantía sin garantía local. NO se incidenta, sólo hay que ver que la facilidad crediticia venga bien identificada (ya sea una contrato de préstamo, crédito, leasing etc ...)
+- Se valida como contragarantía recibida.
+- Aspectos más relevantes: obligación garantizada, legislación aplicable, cancelación subjetiva.
+- En el apartado advertencia se indica <mark>siempre</mark>: “Cobertura del importe y del plazo. Como desconocemos las condiciones de la financiación que concede CXB, advertimos que antes de la formalización, deberéis comprobar que la cuantía máxima garantizada cubra tanto el principal como posibles intereses u otros gastos que se generan por la póliza de préstamo/crédito (tanto ordinarios, como demora, o bien otros recargos, gastos o comisiones que se generen por posibles incumplimientos del titular de la póliza o por aplicación de comisiones pactadas en la póliza que se garantiza) y respecto al plazo de vencimiento, os recordamos que el plazo de la contragarantía recibida debe ser superior al de la póliza de préstamo/crédito, al menos treinta (30) días respecto a la fecha de vencimiento de la garantía emitida por CaixaBank.”
+
+Se adjunta ejemplo
+
+LOAN GUARANTEE
+
+TO: <mark>CAIXABANK, S.A.</mark> (NAME AND ADDRESS OF BENEFICIARY) (HEREINAFTER REFERRED TO AS THE “LENDER”)
+
+DATE: (ISSUING DATE) NO. (GUARANTEE NUMBER)
+
+FROM: <mark>CHINA MERCHANTS BANK</mark>, (CMBCCNBS) (THE GUARANTOR)
+
+AT THE REQUEST OF <mark>SHANDONG HEAD CO LTD</mark> (THE “APPLICANT”) WHICH HAS ITS REGISTERED ADDRESS AT ( ), WE, CHINA MERCHANTS BANK, (CMBCCNBS), WITH OUR OFFICE AT ( ), HEREBY ISSUE IN YOUR FAVOUR THIS IRREVOCABLE LETTER OF GUARANTEE NO. ( ) AMOUNTING TO <mark>EUR 1.250.000,00</mark> (SAY EUROS XXXX ONLY)( HEREINAFTER REFERRED TO AS THE “THE MAXIMUM AMOUNT”) . THIS LOAN GUARANTEE IS TO SECURE THE OBLIGATIONS ( INCLUDING BUT NOT LIMITED TO PRINCIPALS, ANY INTEREST, COST, EXPENSES AND ANY OTHER SUMS), FROM TIME TO TIME, DUE AND PAYABLE TO YOU BY <mark>HEAD SOLUTIONS SL</mark> (THE “BORROWER”), WHICH
+
+16
+
+HAS ITS REGISTERED ADDRESS AT ( ), UNDER THE FACILITY AGREEMENT ( THE “FACILITY AGREEMENT”) WITH REFERENCE NO. ( ) DATED ( ) AMOUNTING TO EUR 1.250.000,00 (SAY UEROS XXXX ONLY) FOR THE PURPOSE OF PROVIDING BANKING FACILITIES.
+
+UPON OUR RECEIPT OF YOUR DEMAND BY AUTHENTICATED SWIFT (SWIFT CODE) AT OUR COUNTER NOT LATER THAN THE EXPIRY OF THIS LOAN GUARANTEE, STATING THAT THE BORROWER HAS FAILD TO FUFILL ITS PAYMENT OR REPAYMENT OBLIGATIONS UNDER THE FACILITY AGREEMENT AND THE AMOUNT DRAWN BY YOU REPRESENTS THE UNPAID BALANCE OF INDEBTEDNESS DUE TO YOU BY THE BORROWER, WE SHALL WITHIN ( ) BANKING DAYS PAY YOU THE AMOUNT SPECIFIED IN EACH OF YOUR DEMANDS PROVIDED THAT THE AGGREGATE AMOUNT DRAWN UNDER THIS LOAN GUARANTEE SHALL NOT EXCEED THE GUARANTEED AMOUNT AFORESAID.
+
+EXCEPT AS EXPRESSLY STATED HEREIN, THIS LOAN GUARANTEE IS NOT SUBJECT TO ANY AGREEMENT, CONDITION OR QUALIFACATION. OUR OBLIGATIONS UNDER THIS LOAN GUARANTEE SHALL BE THE INDIVIDUAL OBLIGATIONS.
+
+THE GUARANTEED AMOUNT WILL BE REDUCED CORRESPONDINGLY AS AND WHEN PRINCIPAL PAYMENTS THEREOF ARE MADE BY THE BORROWER PURSUANT TO THE FACILITY AGREEMENT OR ANY PAYMENT MADE BY THE GUARANTOR.
+
+<mark>1 All payable sums shall be paid free and clear of any withholding or deduction for or on account of taxes, levies, imposts, duty or other charge of a similar nature or any penalty in respect thereof and if we shall be required by law to make any such withholding or deduction the sum payable in respect of which such deduction or withholding is required to be made shall be increased to the extent necessary to ensure that, after making of such deduction or withholding you shall receive and retain (free from liability in respect of such withholding or deduction) a net sum equal to the sum which it would have received had no such withholding or deduction been made or required to be made.</mark>
+
+ANY AMENDMENT OR MODIFICATIONS OF, CONSENT OR, EXTENSION RENEWAL WITH RESPECT TO THE LOAN AGREEMENT COULD ONLY BE MADE AT OUR PRIOR WRITTEN CONSENT.
+
+EACH NOTICE AND COMMUNICATION HEREUNDER SHALL BE MADE I

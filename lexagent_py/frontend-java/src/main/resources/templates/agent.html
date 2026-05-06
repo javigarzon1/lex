@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${agent.name}">Agente</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<header class="topbar">
+    <a class="brand" th:href="@{/}">⚖️ LexAgent</a>
+    <nav>
+        <a th:href="@{/}">← Mis agentes</a>
+        <a class="btn btn-ghost" th:href="@{'/agents/' + ${agent.id} + '/edit'}">Editar</a>
+        <form th:action="@{/logout}" method="post" style="display:inline">
+            <button class="btn btn-ghost" type="submit">Salir</button>
+        </form>
+    </nav>
+</header>
+<main class="container">
+    <h1 th:text="${agent.name}">Agente</h1>
+    <p class="muted" th:text="${agent.description}">desc</p>
+    <span class="badge" th:text="${agent.doc_type}">tipo</span>
+
+    <h2>Rellena el formulario</h2>
+    <form method="post" th:action="@{'/agents/' + ${agent.id} + '/run'}" class="form">
+        <div th:each="f : ${agent.form_fields}">
+            <label>
+                <span th:text="${f.label}">Etiqueta</span>
+                <th:block th:switch="${f.type}">
+                    <textarea th:case="'textarea'" th:name="'f_' + ${f.name}" rows="4"></textarea>
+                    <input th:case="'date'" type="date" th:name="'f_' + ${f.name}"/>
+                    <input th:case="'number'" type="number" step="any" th:name="'f_' + ${f.name}"/>
+                    <select th:case="'select'" th:name="'f_' + ${f.name}">
+                        <option th:each="o : ${f.options}" th:value="${o}" th:text="${o}"></option>
+                    </select>
+                    <input th:case="*" type="text" th:name="'f_' + ${f.name}"/>
+                </th:block>
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">▶ Ejecutar agente</button>
+    </form>
+
+    <form method="post" th:action="@{'/agents/' + ${agent.id} + '/delete'}"
+          onsubmit="return confirm('¿Eliminar este agente?');" style="margin-top:2rem;">
+        <button type="submit" class="btn btn-danger">Eliminar agente</button>
+    </form>
+</main>
+</body>
+</html>
