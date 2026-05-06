@@ -43,7 +43,7 @@ with st.sidebar:
 # ---------- vista: lista ----------
 def view_list() -> None:
     st.header("Mis agentes")
-    agents = db.list_agents()
+    agents = db.list_agents(user_id="demo")    
     if not agents:
         st.info("Aún no tienes agentes. Crea el primero con el botón de la barra lateral.")
         return
